@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import App from './App';
-import Head from './Components/Head';
-import AllProduct from './Components/AllProduct';
-import Product from './Components/Product';
+import Head from './Shop/Head';
+import AllProduct from './Shop/AllProduct';
+import Product from './Shop/Product';
 import reportWebVitals from './reportWebVitals';
-import Login from './Components/Login';
-import SignOut from './Components/SignOut';
-import Detaill from './Components/Detaill';
-import Registration from './Components/Registration';
-import Delete from './Components/Delete';
-import ProductEdit from './Components/ProductEdit';
+import Login from './Shop/Login';
+import SignOut from './Shop/SignOut';
+import Detaill from './Shop/Detaill';
+import Registration from './Shop/Registration';
+import Delete from './Shop/Delete';
+import ProductEdit from './Shop/ProductEdit';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
